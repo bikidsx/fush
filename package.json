@@ -1,0 +1,17 @@
+{
+  "name": "@bikidsx/fush",
+  "version": "1.0.0",
+  "description": "Free a port. Catch a roast. Celebrate with terminal confetti.",
+  "type": "module",
+  "bin": { "fush": "bin/fush.js" },
+  "files": ["bin", "src", "README.md", "LICENSE"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node bin/fush.js",
+    "demo": "node bin/fush.js --demo",
+    "test": "node --test",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": ["cli", "port", "kill", "kill-port", "terminal", "confetti", "developer-tools"],
+  "license": "MIT"
+}
